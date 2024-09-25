@@ -1,0 +1,10 @@
+# Byte-compiled files
+__pycache__/
+# Virtual environment
+myenv/
+
+# DataSets
+DataSets/
+distance/
+
+.DS_Store
