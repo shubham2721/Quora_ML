@@ -20,6 +20,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 import spacy
 import pickle
+import nltk
+nltk.download('stopwords')
 
 freq_qid1 = pd.read_csv('trained_model/qid1_frequency.csv')
 freq_qid2 = pd.read_csv('trained_model/qid2_frequency.csv')
