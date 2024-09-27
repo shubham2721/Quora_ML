@@ -28,7 +28,9 @@ Developed a full pipeline that includes preprocessing, feature extraction (W2V/G
 **Results**
 Models were tested and evaluated based on classification metrics.
 Logistic Regression and SVM showed promising results, particularly when using GloVe embeddings.
+
 **Requirements**
 The project includes a requirements file (requirements.txt) with all necessary libraries for running the pipeline, including NLP packages like gensim and sklearn for model building.
+
 **Problem Objective**
 The goal of the project was to classify pairs of questions as either duplicates or non-duplicates using NLP techniques and machine learning models.
